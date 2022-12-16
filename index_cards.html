@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Card</title>
+	<style>
+		.shops {
+			display: flex;
+			flex-direction: row;
+			align-items: stretch;
+			overflow-x: auto;
+			overflow-y: none;
+		}
+
+		.card-shop-principal {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0px;
+			width: 244px;
+			height: auto;
+			background: #ffffff;
+			border: 1px solid #d1d3d5;
+			border-radius: 8px;
+			flex: none;
+			order: 0;
+			flex-grow: 0;
+			text-decoration: none;
+		}
+
+		.style-card-text {
+			width: 212px;
+			height: 40px;
+			font-family: "Nunito Sans";
+			font-style: normal;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 20px;
+			color: #3c4049;
+			flex: none;
+			order: 0;
+			align-self: stretch;
+			flex-grow: 0;
+		}
+
+		.style-card-img {
+			width: 212px;
+			height: 212px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+
+		.card-custom-body {
+			padding-left: 17px;
+			padding-right: 15px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		.card-custom-body-shop {
+			padding-left: 17px;
+			padding-right: 15px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding-bottom: 27px;
+		}
+
+		@media screen and (max-width: 700px) {
+			.card-shop-principal {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 0px;
+				width: 208px !important;
+				height: auto;
+				background: #ffffff;
+				border: 1px solid #d1d3d5;
+				border-radius: 8px;
+				flex: none;
+				order: 0;
+				flex-grow: 0;
+				margin-right: 16px;
+			}
+
+			.style-card-text {
+				width: 176px;
+				height: 40px;
+				font-size: 14px;
+				line-height: 20px;
+				align-self: stretch;
+				flex-grow: 0;
+			}
+
+			.style-card-img {
+				width: 176px;
+				height: 176px;
+				padding-top: 12px;
+				padding-bottom: 12px;
+			}
+
+			.card-order {
+				padding-left: 30px;
+			}
+
+			.card-custom-body-shop {
+				padding-bottom: 10px;
+			}
+
+			.paragraph {
+				font-size: 10px !important;
+				line-height: 14px !important;
+			}
+
+			.subtitle,
+			.equivalent {
+				font-size: 12px !important;
+				line-height: 16px !important;
+			}
+		}
+
+		.subtitle {
+			width: 209px;
+			height: 40px;
+			font-family: "Nunito Sans";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 20px;
+			color: #3c4049;
+			flex: none;
+			order: 0;
+			flex-grow: 0;
+		}
+
+		.equivalent {
+			font-family: "Nunito Sans";
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 16px;
+			padding-left: 6px;
+		}
+
+		.card-custom-subtitle {
+			width: 100%;
+			padding-left: 16px;
+			padding-right: 16px;
+		}
+
+		.paragraph {
+			width: 212px;
+			height: 16px;
+			font-family: "Nunito Sans";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 16px;
+			color: #3c4049;
+			flex: none;
+			order: 0;
+			flex-grow: 0;
+		}
+
+		.card-order {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<section>
+			<div class="shops">
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="TENNIS MOSQUERA"
+							src="https://puntoscolombiaqa.vteximg.com.br/arquivos/ids/192782/image-4c866924c03b4045bf1a11dc5eaf4960.jpg?v=637972592078500000" />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">TENNIS MOSQUERA</span>
+					</div>
+				</a>
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="TENNIS MOSQUERA"
+							src="https://puntoscolombiaqa.vteximg.com.br/arquivos/ids/192781/image-dd4445a0990b488f99988202d1798ff0.jpg?v=637972589673600000" />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">TENNIS MOSQUERA</span>
+					</div>
+				</a>
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="TENNIS MOSQUERA"
+						src="https://puntoscolombiaqa.vteximg.com.br/arquivos/ids/192782/image-4c866924c03b4045bf1a11dc5eaf4960.jpg?v=637972592078500000" />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">TENNIS MOSQUERA</span>
+					</div>
+				</a>
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="TENNIS BARBACOAS"
+						src="https://puntoscolombiaqa.vteximg.com.br/arquivos/ids/192782/image-4c866924c03b4045bf1a11dc5eaf4960.jpg?v=637972592078500000"  />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">TENNIS BARBACOAS</span>
+					</div>
+				</a>
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="TENNIS BARBACOAS" 
+						src="https://puntoscolombiaqa.vteximg.com.br/arquivos/ids/192782/image-4c866924c03b4045bf1a11dc5eaf4960.jpg?v=637972592078500000" />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">TENNIS BARBACOAS</span>
+					</div>
+				</a>
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="TENNIS BARBACOAS" />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">TENNIS BARBACOAS</span>
+					</div>
+				</a>
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="TENNIS ULTRABOOST" src="https://puntoscolombiaqa.vteximg.com.br/arquivos/ids/192782/image-4c866924c03b4045bf1a11dc5eaf4960.jpg?v=637972592078500000" />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">TENNIS ULTRABOOST</span>
+					</div>
+				</a>
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="TENNIS ULTRABOOST" src="https://puntoscolombiaqa.vteximg.com.br/arquivos/ids/192782/image-4c866924c03b4045bf1a11dc5eaf4960.jpg?v=637972592078500000"  />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">TENNIS ULTRABOOST</span>
+					</div>
+				</a>
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="Camiseta FranciaRun It 3 Rayas PB" src="https://puntoscolombiaqa.vteximg.com.br/arquivos/ids/192782/image-4c866924c03b4045bf1a11dc5eaf4960.jpg?v=637972592078500000" />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">Camiseta FranciaRun It 3 Rayas PB</span>
+					</div>
+				</a>
+				<a href="#" target="_blank" class="card-shop-principal">
+					<div>
+						<img applazyload="" class="style-card-img" alt="Tenis Polo Ralph Lauren RF102506J color Rosa / Blanco" src="https://puntoscolombiaqa.vteximg.com.br/arquivos/ids/192782/image-4c866924c03b4045bf1a11dc5eaf4960.jpg?v=637972592078500000" />
+					</div>
+					<div class="card-custom-body-shop">
+						<span class="style-card-text">Tenis Polo Ralph Lauren RF102506J color ...</span>
+					</div>
+				</a>
+			</div>
+		</section>
+	</div>
+</body>
+
+</html>
